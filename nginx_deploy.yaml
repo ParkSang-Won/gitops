@@ -13,7 +13,7 @@ spec:
         run: nginx-deploy
     spec:
       containers:
-      - image: bitnami/nginx:v1
+      - image: bitnami/nginx
         name: test
         ports:
         - containerPort: 80
