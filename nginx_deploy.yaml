@@ -13,7 +13,7 @@ spec:
         run: nginx
     spec:
       containers:
-      - image: whiteplus/nginx-app
+      - image: bitnami/nginx
         name: test
         ports:
         - containerPort: 80
