@@ -13,7 +13,7 @@ spec:
         run: nginx-deploy
     spec:
       containers:
-      - image: bitnami/nginx
+      - image: rosehs00/app
         name: test
         ports:
         - containerPort: 80
