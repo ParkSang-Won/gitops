@@ -11,7 +11,7 @@ spec:
     protocol: TCP
     targetPort: 80
   selector:
-    app: nginx-deploy
+    app: nginx
   type: NodePort
 status:
   loadBalancer: {}
